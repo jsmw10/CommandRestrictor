@@ -1,0 +1,12 @@
+name: CommandRestrictor
+version: ${project.version}
+main: me.jsm.plhp.commandrestrictor.CommandRestrictor
+authors: [ Smokefall ]
+description: Disables the command plugins help and plugins.
+website: www.github.com/jsmw10
+commands:
+  help:
+    description: disables players being able to see /help
+  plugins:
+    description: disables players being able to see /plugins
+    aliases: [pl, plugin]
